@@ -1,9 +1,9 @@
 import React from "react";
-import "./Footer.scss";
+import "./SocialNet.scss";
 
 function Footer() {
     return (
-        <div className="footer" id="footer">
+        <div className="socialNet" id="socialNet">
             footer
         </div>
     );
