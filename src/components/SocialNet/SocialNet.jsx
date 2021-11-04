@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="socialNet" id="socialNet">
             footer
-        </div>
+        </div> 
     );
 }
 

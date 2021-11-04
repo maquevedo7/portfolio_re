@@ -12,10 +12,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 1.5s ease;
+    cursor: pointer;
 
-    a {
-        color: $mainColor;
-        text-decoration: none;
+    ul {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        width: 60%;
+
+        li {
+            margin-bottom: 1em;
+
+            a {
+                color: $mainColor;
+                text-decoration: none;
+                font-size: inherit;
+                font-weight: 300;
+
+                .icon {
+                    font-size: 25px;
+                }
+            }
+
+            a:hover {
+                font-weight: 500;
+            }
+        }
     }
 
     &.active {
