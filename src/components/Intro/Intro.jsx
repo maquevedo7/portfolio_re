@@ -4,7 +4,8 @@ import "./Intro.scss";
 function Intro() {
     return (
         <div className="intro" id="intro">
-            intro
+            <div className="left"></div>
+            <div className="right"></div>
         </div>
     );
 }
