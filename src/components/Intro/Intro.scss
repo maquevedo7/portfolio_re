@@ -47,7 +47,7 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
-                color: rgb(236, 0, 157);
+                color: #ec009d;
             }
             h2 {
                 font-size: 35px;
@@ -58,9 +58,18 @@
         }
 
         .cv {
-            width: 50%;
+            width: 30%;
             height: 10%;
             cursor: pointer;
+            border-radius: 20px;
+            background-color: $mainColor;
+            font-size: 20px;
+            color: white;
+            margin-left: 30%;
+
+            &:hover {
+                background-color: #ec009d;
+            }
         }
     }
 }

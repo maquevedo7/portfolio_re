@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.scss";
-import { GoHome as Home } from "react-icons/go";
+import { FaHome as Home } from "react-icons/fa";
 import { GoGear as Gear } from "react-icons/go";
 import { FaFolderOpen as Folder } from "react-icons/fa";
 import { IoIosContacts as Social } from "react-icons/io";

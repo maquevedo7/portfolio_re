@@ -9,7 +9,7 @@ function Routes() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={App}></Route>
-                    <Route exact path="/cv-pdf" component={Pdf}></Route>
+                    <Route exact path="/pdf" component={Pdf}></Route>
                 </Switch>
             </BrowserRouter>
         </div>

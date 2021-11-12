@@ -1,8 +1,16 @@
 import React, { Component } from "react";
+import "./Pdf.scss";
 
 class Pdf extends Component {
     render() {
-        return <div></div>;
+        return (
+            <div className="container">
+                <object
+                    data={require("../assets/hdv.pdf")}
+                    type="application/pdf"
+                ></object>
+            </div>
+        );
     }
 }
 
