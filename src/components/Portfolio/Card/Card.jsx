@@ -7,11 +7,11 @@ function Card() {
             <div className="title">
                 <h1>50 challenges</h1>
                 <div className="img">
-                    <img
+                    {/* <img
                         src="https://i.ibb.co/bHypPnS/50.png"
                         alt="50"
                         border="0"
-                    ></img>
+                    ></img> */}
                 </div>
             </div>
             <div className="description">qué pasó</div>

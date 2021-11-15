@@ -30,7 +30,7 @@ function Intro() {
                     <h1>Hiromi Acosta</h1>
                     <h3 ref={textRef}> </h3>
                 </div>
-                <a href="./cv-pdf" target="_blank">
+                <a download="" href="./cv-pdf" target="_blank">
                     <button className="cv">Download CV</button>
                 </a>
             </div>

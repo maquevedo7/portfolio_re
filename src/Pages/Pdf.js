@@ -8,6 +8,7 @@ class Pdf extends Component {
                 <object
                     data={require("../assets/hdv.pdf")}
                     type="application/pdf"
+                    aria-label="pdf"
                 ></object>
             </div>
         );
