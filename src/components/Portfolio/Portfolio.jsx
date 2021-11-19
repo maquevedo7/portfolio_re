@@ -6,9 +6,14 @@ import { skills } from "../../data/dataSkills";
 function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
-            {skills.map((skill, index) => (
-                <Card key={index} data={skill} />
-            ))}
+            <div className="title">
+                <h1>PORTFOLIO</h1>
+            </div>
+            <div className="mapCards">
+                {skills.map((skill, index) => (
+                    <Card key={index} data={skill} />
+                ))}
+            </div>
         </div>
     );
 }
