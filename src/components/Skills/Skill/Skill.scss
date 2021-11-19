@@ -6,17 +6,18 @@
     align-items: center;
     justify-content: center;
     height: 230px;
-    width: 200px;
+    width: 180px;
     cursor: pointer;
     border: black 2px solid;
     border-radius: 20px;
+    margin: 1em;
 
     .txt {
         font-size: 30px;
         margin-bottom: 10px;
     }
     .icon {
-        font-size: 90px;
+        font-size: 80px;
         padding-bottom: 0;
     }
     .tech {
