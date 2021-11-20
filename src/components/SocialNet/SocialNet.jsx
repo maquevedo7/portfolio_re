@@ -7,6 +7,14 @@ import { AiOutlineGitlab as Gitlab } from "react-icons/ai";
 function Footer() {
     return (
         <div className="wrap">
+            <div className="personal">
+                <h3>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Inventore quis magnam quod culpa deleniti, ducimus ut,
+                    minima dolores, soluta fugiat libero reiciendis? Beatae in
+                    asperiores blanditiis maxime quaerat tempora illum.
+                </h3>
+            </div>
             <div className="socialNet" id="socialNet">
                 <a
                     className="link"

@@ -4,6 +4,7 @@ import { IoLogoJavascript as Js } from "react-icons/io";
 import { IoLogoSass as Sass } from "react-icons/io";
 import { DiReact as React } from "react-icons/di";
 import { SiBootstrap as Bootstrap } from "react-icons/si";
+import { SiFigma as Figma } from "react-icons/si";
 
 export const skills = [
     {
@@ -34,6 +35,11 @@ export const skills = [
     {
         icon: <Bootstrap />,
         txt: "Bootstrap",
+        tech: "Frontend",
+    },
+    {
+        icon: <Figma />,
+        txt: "Figma",
         tech: "Frontend",
     },
 ];

@@ -1,5 +1,10 @@
 @import "../../global.scss";
 
-.socialNet {
-    background-color: $bgColor2;
+.wrap {
+    width: 90%;
+    display: flex;
+
+    .socialNet {
+        background-color: white;
+    }
 }
