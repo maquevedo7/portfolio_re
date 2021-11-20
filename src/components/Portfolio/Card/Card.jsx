@@ -1,20 +1,20 @@
 import React from "react";
 import "./Card.scss";
 
-function Card() {
+function Card({ project }) {
     return (
         <div className="container">
             <div className="title">
-                <h2>50 challenges</h2>
-                <div className="img">
-                    {/* <img
-                        src="https://i.ibb.co/bHypPnS/50.png"
-                        alt="50"
-                        border="0"
-                    ></img> */}
-                </div>
+                <h2>{project.name}</h2>
+                <div className="img">{project.icon}</div>
+                <div className="des">{project.description} </div>
+                <button className="btn">
+                    <a href={project.github}> Github</a>
+                </button>
+                <button className="btn">
+                    <a href={project.deploy}> Deploy</a>
+                </button>
             </div>
-            <div className="description">qué pasó</div>
         </div>
     );
 }

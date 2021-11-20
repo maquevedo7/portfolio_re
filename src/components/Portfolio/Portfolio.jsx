@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card/Card";
 import "./Portfolio.scss";
-import { skills } from "../../data/dataSkills";
+import { projects } from "../../data/dataProject";
 
 function Portfolio() {
     return (
@@ -10,8 +10,8 @@ function Portfolio() {
                 <h1>PORTFOLIO</h1>
             </div>
             <div className="mapCards">
-                {skills.map((skill, index) => (
-                    <Card key={index} data={skill} />
+                {projects.map((project, index) => (
+                    <Card key={index} project={project} />
                 ))}
             </div>
         </div>
