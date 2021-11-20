@@ -1,10 +1,56 @@
 @import "../../global.scss";
 
-.wrap {
-    width: 90%;
+.containerWrap {
+    background-color: white;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .socialNet {
-        background-color: white;
+    .title {
+        text-align: center;
+
+        h1 {
+            font-size: 60px;
+            margin: 10px 0;
+            color: $mainColor;
+        }
+    }
+
+    .wrap {
+        width: 85%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        .personal {
+            padding: 1em;
+            margin: 1em;
+            width: 62%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 22px;
+            }
+        }
+        .socialNet {
+            font-size: 60px;
+            width: 32%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 0.5em;
+
+            a {
+                margin: 10px;
+                color: $mainColor;
+                text-decoration: none;
+            }
+        }
     }
 }
