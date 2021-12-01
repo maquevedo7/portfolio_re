@@ -13,9 +13,13 @@
     justify-content: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 30px;
-    font-weight: bold;
     margin-top: 30px;
-    color: $mainColor;
+
+    h1 {
+        font-size: 60px;
+        margin: 10px 0;
+        color: $mainColor;
+    }
 }
 
 /* style in the paragraph */
@@ -53,13 +57,13 @@
     font-family: "Rajdhani", sans-serif;
     width: 19%;
     text-align: center;
-    background-color: rgba(196, 196, 196, 72%);
+    background-color: $bgColor1;
     padding: 5px;
     border-radius: 6px;
 }
 
 .formContainer {
-    background-color: rgba(196, 196, 196, 72%);
+    background-color: $bgColor2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,22 +93,20 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 3px solid grey;
-    font-family: "Rajdhani", sans-serif;
+    border: 3px solid $bgColor2;
     font-size: 20px;
 }
 
 .submit {
     width: 100%;
-    border: 3px solid grey;
-    font-family: "Rajdhani", sans-serif;
     font-size: 15px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px;
-    background-color: rgba(196, 196, 196, 80%);
+    background-color: $mainColor;
+    color: aliceblue;
     margin: 16px 0;
 }
 

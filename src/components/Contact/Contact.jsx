@@ -1,8 +1,4 @@
 import React, { useRef } from "react";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import "./Contact.scss";
 import emailjs from "emailjs-com";
 
@@ -32,25 +28,16 @@ function Contact() {
     return (
         <div className="containerContactMe">
             <div className="contactMe">
-                <h1>contact</h1>
-            </div>
-            <div className="pContac">
-                <p>Thanks for your interest in getting in touch!</p>
-                <br />
-                <p>
-                    If you have a question about my portfolio or my volunteering
-                    experience, or if you’d just like to get in touch please
-                    reach out!
-                </p>
+                <h1>CONTACT</h1>
             </div>
             <div className="containerContacInfo">
                 <div className="info">
                     <h2 className="infoGeneral">Gmail</h2>
-                    <h2 className="infoGeneral">mtoro0926@gmail.com</h2>
+                    <h2 className="infoGeneral">mafequevedo1@gmail.com</h2>
                 </div>
                 <div className="info">
                     <h2 className="infoGeneral">Phone</h2>
-                    <h2 className="infoGeneral">+57 324-5627089</h2>
+                    <h2 className="infoGeneral">+57 318 354 27 64</h2>
                 </div>
             </div>
 

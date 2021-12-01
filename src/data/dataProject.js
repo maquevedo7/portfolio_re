@@ -1,7 +1,7 @@
 import { IoLogoJavascript as Js } from "react-icons/io";
 import { IoLogoHtml5 as Html } from "react-icons/io";
 import { IoLogoCss3 as Css } from "react-icons/io";
-import { IoLogoReact as React } from "react-icons/io";
+import { GrReactjs as React } from "react-icons/gr";
 
 export const projects = [
     {
