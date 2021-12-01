@@ -12,7 +12,7 @@ function Contact() {
                 "gmailMessage",
                 "template_zvut4k8",
                 form.current,
-                "user_p76k3ixuleJzrb8MZ3wSP"
+                "user_bPjzbVch6yIIoCv1X7IPx"
             )
             .then(
                 (result) => {
@@ -26,7 +26,7 @@ function Contact() {
     }
 
     return (
-        <div className="containerContactMe">
+        <div className="containerContactMe" id="contact">
             <div className="contactMe">
                 <h1>CONTACT</h1>
             </div>
