@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Intro.scss";
 import { init } from "ityped";
+import pdf from "../../assets/hdv.pdf";
 
 function Intro() {
     const textRef = useRef();
@@ -30,9 +31,16 @@ function Intro() {
                     <h1>Hiromi Acosta</h1>
                     <h3 ref={textRef}> </h3>
                 </div>
-                <a href="./cv-pdf" target="_blank">
-                    <button className="cv">Download CV</button>
-                </a>
+                <button className="cv">
+                    <a
+                        href={pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download="pdf"
+                    >
+                        Download CV
+                    </a>
+                </button>
             </div>
         </div>
     );
